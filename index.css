@@ -4,20 +4,37 @@ body {
   margin: 0;
   padding: 0;
 }
-main h1 {
+header {
+  display: flex;
+}
+.h1 {
+  width: 90vw;
+
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+h1 {
   color: white;
   font-family: Raleway;
   font-weight: 400;
   font-size: 3rem;
+  text-align: center;
+}
+.h1 span {
+  color: rgb(4, 194, 201);
 }
 /* Nav */
 nav {
-  margin-top: 4rem;
-  position: fixed;
+  /* margin-top: 4rem;
+  position: fixed; */
 }
 ul {
   list-style: none;
 }
 li {
-  margin-top: 4rem;
+  margin-top: 5.5rem;
 }
