@@ -8,8 +8,6 @@ header {
   display: flex;
 }
 .h1 {
-  width: 90vw;
-
   margin: 0;
   padding: 0;
   display: flex;
@@ -18,19 +16,19 @@ header {
   height: 100vh;
 }
 h1 {
+  width: 100vw;
   color: white;
   font-family: Raleway;
   font-weight: 400;
   font-size: 3rem;
   text-align: center;
+  margin-bottom: 3rem;
 }
 .h1 span {
   color: rgb(4, 194, 201);
 }
-/* Nav */
 nav {
-  /* margin-top: 4rem;
-  position: fixed; */
+  position: fixed;
 }
 ul {
   list-style: none;

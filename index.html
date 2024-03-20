@@ -21,22 +21,49 @@
     />
     <link rel="stylesheet" href="index.css" />
     <link rel="stylesheet" href="button.css" />
+    <link rel="stylesheet" href="about.css" />
+    <link rel="stylesheet" href="work.css" />
+    <link rel="stylesheet" href="contact.css" />
   </head>
   <body>
-    <header>
+    <header id="header">
       <nav>
         <ul>
           <li>
-            <button class="button-30" role="button">HOME</button>
+            <button
+              class="button-30"
+              onclick="location.href='#header'"
+              role="button"
+            >
+              HOME
+            </button>
           </li>
           <li>
-            <button class="button-30" role="button">ABOUT</button>
+            <button
+              class="button-30"
+              onclick="location.href='#about'"
+              role="button"
+            >
+              ABOUT
+            </button>
           </li>
           <li>
-            <button class="button-30" role="button">WORK</button>
+            <button
+              class="button-30"
+              onclick="location.href='#work'"
+              role="button"
+            >
+              WORK
+            </button>
           </li>
           <li>
-            <button class="button-30" role="button">CONTACT</button>
+            <button
+              class="button-30"
+              onclick="location.href='#contact'"
+              role="button"
+            >
+              CONTACT
+            </button>
           </li>
         </ul>
       </nav>
@@ -47,6 +74,15 @@
         </h1>
       </div>
     </header>
+    <div class="about" id="about">
+      <h1>ABOUT</h1>
+    </div>
+    <div class="work" id="work">
+      <h1>Work</h1>
+    </div>
+    <div class="contact" id="contact">
+      <h1>Contact</h1>
+    </div>
 
     <!-- JavaScript Bundle with Popper -->
     <script

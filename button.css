@@ -1,3 +1,5 @@
+button {
+}
 .button-30 {
   align-items: center;
   appearance: none;
@@ -12,7 +14,9 @@
   box-sizing: border-box;
   color: #c9c9c9;
   cursor: pointer;
-
+  [href^="#"] {
+    transition-duration: 1s; /* Lägg till önskad övergångshastighet */
+  }
   font-family: "JetBrains Mono", monospace;
   list-style: none;
   overflow: hidden;
