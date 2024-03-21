@@ -1,3 +1,79 @@
 .about {
   height: 100vh;
 }
+.about .wrapper {
+  display: flex;
+}
+.left {
+  border: solid 1px red;
+  height: 78vh;
+  width: 50vw;
+}
+.right {
+  height: 78vh;
+  width: 50vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 4rem;
+}
+.cardwrapper {
+  display: grid;
+  grid-template-areas:
+    "card1 card2 card3"
+    "card4 card5 card6"
+    "card7 card8 card9"
+    " .    card10 .";
+
+  grid-template-columns: repeat(3, 10rem);
+  grid-auto-rows: 6.5rem;
+  grid-gap: 1.8rem;
+}
+.card {
+  border-radius: 10px;
+  background-color: rgb(37, 41, 52);
+  color: white;
+  border: 4px solid blue;
+}
+.card1 {
+  grid-area: card1;
+  position: relative;
+  top: 4rem;
+}
+.card2 {
+  grid-area: card2;
+}
+.card3 {
+  grid-area: card3;
+  position: relative;
+  top: 4rem;
+}
+.card4 {
+  grid-area: card4;
+  position: relative;
+  top: 4rem;
+}
+.card5 {
+  grid-area: card5;
+}
+.card6 {
+  grid-area: card6;
+  position: relative;
+  top: 4rem;
+}
+.card7 {
+  grid-area: card7;
+  position: relative;
+  top: 4rem;
+}
+.card8 {
+  grid-area: card8;
+}
+.card9 {
+  grid-area: card9;
+  position: relative;
+  top: 4rem;
+}
+.card10 {
+  grid-area: card10;
+}
