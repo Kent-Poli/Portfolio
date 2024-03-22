@@ -3,6 +3,7 @@ body {
   background-color: rgb(37, 41, 52);
   margin: 0;
   padding: 0;
+  font-family: Raleway;
 }
 header {
   display: flex;
@@ -20,7 +21,7 @@ h1 {
   color: white;
   font-family: Raleway;
   font-weight: 300;
-  font-size: 3.7rem;
+  font-size: clamp(2rem, 5.5vw, 3.7rem);
   text-align: center;
   margin-bottom: 3rem;
 }
