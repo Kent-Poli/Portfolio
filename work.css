@@ -1,3 +1,20 @@
 .work {
-  height: 100vh;
+  /* height: 100vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 6rem;
+}
+.work h1 {
+  margin-bottom: 5rem;
+}
+.work .wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+}
+.work .card {
+  height: 18rem;
+  width: 25rem;
 }

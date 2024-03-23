@@ -7,6 +7,7 @@
 .about h1 {
   position: relative;
   top: 6rem;
+  margin-bottom: 6rem;
 }
 .left {
   display: flex;
@@ -62,11 +63,11 @@ circle {
     "card7 card8 card9"
     " .    card10 .";
 
-  grid-template-columns: repeat(3, 10rem);
-  grid-auto-rows: 6.5rem;
+  grid-template-columns: repeat(3, 12rem);
+  grid-auto-rows: 8.5rem;
   grid-gap: 1.8rem;
 }
-.card {
+.about .card {
   background-color: rgb(37, 41, 52);
   color: white;
   /* border: 4px solid blue; */
@@ -87,45 +88,70 @@ circle {
   border-radius: 10px;
 }
 
-.card1 {
+.about .card1 {
   grid-area: card1;
+  display: flex;
+  align-items: center;
   position: relative;
   top: 4rem;
 }
-.card2 {
+.card1 img {
+  margin-top: 1rem;
+  width: 5rem;
+}
+.card1 .skills {
+  text-align: right; /* Right-align text */
+  /* padding-top: 10px; 
+  padding-bottom: 10px;  */
+  color: white; /* White text color */
+}
+.card1 .container {
+  width: 90%; /* Full width */
+  background-color: #ddd; /* Grey background */
+  padding-left: 0;
+  height: 1rem;
+  margin-top: 0.5rem;
+  /* margin-left: 1rem; */
+}
+.card1 .html {
+  height: 1rem;
+  width: 90%;
+  background-color: #04aa6d;
+}
+.about .card2 {
   grid-area: card2;
 }
-.card3 {
+.about .card3 {
   grid-area: card3;
   position: relative;
   top: 4rem;
 }
-.card4 {
+.about .card4 {
   grid-area: card4;
   position: relative;
   top: 4rem;
 }
-.card5 {
+.about .card5 {
   grid-area: card5;
 }
-.card6 {
+.about .card6 {
   grid-area: card6;
   position: relative;
   top: 4rem;
 }
-.card7 {
+.about .card7 {
   grid-area: card7;
   position: relative;
   top: 4rem;
 }
-.card8 {
+.about .card8 {
   grid-area: card8;
 }
-.card9 {
+.about .card9 {
   grid-area: card9;
   position: relative;
   top: 4rem;
 }
-.card10 {
+.about .card10 {
   grid-area: card10;
 }
